@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Обучалка.Windows</title>
+    <title>Маковецкий Андрей</title>
 
     <!-- WinJS references -->
     <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
@@ -14,6 +14,48 @@
     <script src="/js/default.js"></script>
 </head>
 <body>
-    <p>Привет!</p>
+<script>
+var z = parseInt(prompt("Введите номер задания (1, 2, 3)"));
+if (z == 1) {
+	alert("Вы выбрали 1 задание: Чётное или нечётное.");
+	function Chet(d) {
+	var d = parseInt(prompt("Введите число"));
+		if (d%2 == 0) {
+			alert("Введённое вами число ЧЁТНОЕ");
+		} else {
+			alert("Введённое вами число НЕЧЁТНОЕ");
+		}
+	}
+	Chet();
+} else if (z == 2) {
+	function main(a, b, c) {
+		var a = parseInt(prompt("Введите первое число:"));
+		var b = parseInt(prompt("Введите второе число:"));
+		var c = parseInt(prompt("Введите третье число:"));
+		alert("Сумма = " + parseInt(a+b+c));
+	
+	}
+	main();
+} else  if (z == 3) {
+	alert("Вы выбрали 3 задание");
+	
+} else {
+	alert("Ошибка!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
 </body>
 </html>
