@@ -15,30 +15,52 @@
 </head>
 <body>
 <script>
+//Выбор задания
 var z = parseInt(prompt("Введите номер задания (1, 2, 3)"));
+
+// 1 задание
 if (z == 1) {
 	alert("Вы выбрали 1 задание: Чётное или нечётное.");
 	function Chet(d) {
 	var d = parseInt(prompt("Введите число"));
 		if (d%2 == 0) {
-			alert("Введённое вами число ЧЁТНОЕ");
+			return true;
 		} else {
-			alert("Введённое вами число НЕЧЁТНОЕ");
+			return false;
 		}
 	}
-	Chet();
+	var chet = Chet();
+	if (chet == true) {
+		alert("Ваше число чётное.");
+	} else {
+		alert("Ваше число нечётное.");
+	}
+	
+// 2 задание
 } else if (z == 2) {
+	alert("Вы выбрали 2 задание: Деление набольшего из 3 чисел на наименьшее из этих же 3 чисел.");
 	function main(a, b, c) {
 		var a = parseInt(prompt("Введите первое число:"));
 		var b = parseInt(prompt("Введите второе число:"));
 		var c = parseInt(prompt("Введите третье число:"));
+		
+		function Max(){
+			
+		}
+		
+		function Min() {
+			
+		}
 		alert("Сумма = " + parseInt(a+b+c));
 	
 	}
 	main();
+	
+// 3 задание
 } else  if (z == 3) {
 	alert("Вы выбрали 3 задание");
 	
+// если выбрали другую цифру	
 } else {
 	alert("Ошибка!");
 }
