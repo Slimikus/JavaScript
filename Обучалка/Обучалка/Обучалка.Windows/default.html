@@ -39,22 +39,40 @@ if (z == 1) {
 // 2 задание
 } else if (z == 2) {
 	alert("Вы выбрали 2 задание: Деление набольшего из 3 чисел на наименьшее из этих же 3 чисел.");
-	function main(a, b, c) {
-		var a = parseInt(prompt("Введите первое число:"));
-		var b = parseInt(prompt("Введите второе число:"));
-		var c = parseInt(prompt("Введите третье число:"));
-		
-		function Max(){
-			
+	function main (a, b, c) {
 		}
 		
-		function Min() {
-			
+	function max(main) {
+		if (a > b) {
+			max = a;
+		} else {
+			max = b;
+		}	
+		if (max < c) 
+			max = c;
+		return max;
 		}
-		alert("Сумма = " + parseInt(a+b+c));
 	
-	}
-	main();
+	function min(main) {
+		if (a < b) {
+			min = a;
+		} else {
+			min = b;
+		}	
+		if (min > c) 
+			min = c;
+		return min;
+		}
+		
+		function rez() {
+			rez = (max/min);
+		}
+		
+	main(a = parseInt(prompt("Введите первое число:")),b = parseInt(prompt("Введите второе число:")),c = parseInt(prompt("Введите третье число:")));
+	max();
+	min();
+	rez();
+	alert("Деление Max на Min = " + rez);
 	
 // 3 задание
 } else  if (z == 3) {
