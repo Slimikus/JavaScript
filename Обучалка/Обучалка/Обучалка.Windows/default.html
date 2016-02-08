@@ -16,13 +16,13 @@
 <body>
 <script>
 //Выбор задания
-var z = parseInt(prompt("Введите номер задания (1, 2, 3)"));
+var z = parseInt(prompt('Введите номер задания (1, 2, 3, 4)'));
 
 // 1 задание
 if (z == 1) {
-	alert("Вы выбрали 1 задание: Чётное или нечётное.");
+	alert('Вы выбрали 1 задание: Чётное или нечётное.');
 	function Chet(d) {
-	var d = parseInt(prompt("Введите число"));
+	var d = parseInt(prompt('Введите число'));
 		if (d%2 == 0) {
 			return true;
 		} else {
@@ -31,14 +31,14 @@ if (z == 1) {
 	}
 	var chet = Chet();
 	if (chet == true) {
-		alert("Ваше число чётное.");
+		alert('Ваше число чётное.');
 	} else {
-		alert("Ваше число нечётное.");
+		alert('Ваше число нечётное.');
 	}
 	
 // 2 задание
 } else if (z == 2) {
-	alert("Вы выбрали 2 задание: Деление набольшего из 3 чисел на наименьшее из этих же 3 чисел.");
+	alert('Вы выбрали 2 задание: Деление набольшего из 3 чисел на наименьшее из этих же 3 чисел.');
 	function main (a, b, c) {
 		}
 		
@@ -68,34 +68,43 @@ if (z == 1) {
 			rez = (max/min);
 		}
 		
-	main(a = parseInt(prompt("Введите первое число:")),b = parseInt(prompt("Введите второе число:")),c = parseInt(prompt("Введите третье число:")));
+	main(a = parseInt(prompt('Введите первое число:')),b = parseInt(prompt('Введите второе число:')),c = parseInt(prompt('Введите третье число:')));
 	max();
 	min();
 	rez();
-	alert("Деление Max на Min = " + rez);
+	alert('Деление Max на Min = ' + rez);
 	
 // 3 задание
 } else  if (z == 3) {
-	alert("Вы выбрали 3 задание");
+	alert('Вы выбрали 3 задание: Вывод чисел от 1 до 10.');
+	var e;
+	var n;
+	function scr(e,n) {
+		if (e<=n) {
+			alert(e);
+			return scr(e+1,n);
+        }
+    }
+    scr(1,10);
+
+// 4 задание
+} else  if (z == 4) {
+	alert('Вы выбрали 4 задание: Возведение числа Х в степень N.');
 	
+	function pow(x, n) {
+		if (n != 1) { 
+			return x * pow(x, n - 1);
+		} else {
+			return x;
+		}
+	}
+
+alert(pow(+prompt('Введите число:'), +prompt('Введите желаемую степень:')));
+
 // если выбрали другую цифру	
 } else {
-	alert("Ошибка!");
+	alert('Ошибка! Выберете цифру от 1 до 4!');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </script>
 </body>
 </html>
