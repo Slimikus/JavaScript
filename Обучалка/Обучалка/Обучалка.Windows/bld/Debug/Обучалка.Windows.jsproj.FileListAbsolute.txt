@@ -1,0 +1,15 @@
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bin\Debug\ReverseMap\resources.pri
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bin\Debug\AppxManifest.xml
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bin\Debug\Обучалка.Windows.build.appxrecipe
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\priconfig.xml
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\priconfig.xml.intermediate
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\layout.resfiles
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\layout.resfiles.intermediate
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\resources.resfiles
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\resources.resfiles.intermediate
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\pri.resfiles
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\pri.resfiles.intermediate
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\qualifiers.txt
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\qualifiers.txt.intermediate
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\ProjectArchitectures.txt

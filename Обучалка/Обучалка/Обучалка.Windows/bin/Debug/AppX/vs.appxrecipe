@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IT010-M</Machine>
+    <WindowsUser>Andrey</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1431907e-9009-4eb0-9ce0-b049bb7c8e92</PackageIdentityName>
+    <IntermediateOutputPath>D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>50E3AF2E35CE68289863C3F072647F8084C35FA0A7EB75FAD8449ADCA7B16DDE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1431907e-9009-4eb0-9ce0-b049bb7c8e92_1.0.0.0_neutral__3k6rj4k30b3e6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1431907e-9009-4eb0-9ce0-b049bb7c8e92_3k6rj4k30b3e6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1431907e-9009-4eb0-9ce0-b049bb7c8e92</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Andrey</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-08T06:38:33.255</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2016-02-08T06:39:13.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T14:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T14:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T14:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T14:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-06-02T14:38:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Shared\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2016-02-08T06:37:38.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Майн\Разработки\JavaScript\Обучалка\Обучалка\Обучалка.Windows\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-02-08T06:38:31.873</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
