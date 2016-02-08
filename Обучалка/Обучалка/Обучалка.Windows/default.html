@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Обучалка.Windows</title>
+    <title>Маковецкий Андрей</title>
 
     <!-- WinJS references -->
     <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
@@ -14,6 +14,88 @@
     <script src="/js/default.js"></script>
 </head>
 <body>
-    <p>Привет!</p>
+<script>
+//Выбор задания
+var z = parseInt(prompt("Введите номер задания (1, 2, 3)"));
+
+// 1 задание
+if (z == 1) {
+	alert("Вы выбрали 1 задание: Чётное или нечётное.");
+	function Chet(d) {
+	var d = parseInt(prompt("Введите число"));
+		if (d%2 == 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	var chet = Chet();
+	if (chet == true) {
+		alert("Ваше число чётное.");
+	} else {
+		alert("Ваше число нечётное.");
+	}
+	
+// 2 задание
+} else if (z == 2) {
+	alert("Вы выбрали 2 задание: Деление набольшего из 3 чисел на наименьшее из этих же 3 чисел.");
+	function main (a, b, c) {
+		}
+		
+	function max(main) {
+		if (a > b) {
+			max = a;
+		} else {
+			max = b;
+		}	
+		if (max < c) 
+			max = c;
+		return max;
+		}
+	
+	function min(main) {
+		if (a < b) {
+			min = a;
+		} else {
+			min = b;
+		}	
+		if (min > c) 
+			min = c;
+		return min;
+		}
+		
+		function rez() {
+			rez = (max/min);
+		}
+		
+	main(a = parseInt(prompt("Введите первое число:")),b = parseInt(prompt("Введите второе число:")),c = parseInt(prompt("Введите третье число:")));
+	max();
+	min();
+	rez();
+	alert("Деление Max на Min = " + rez);
+	
+// 3 задание
+} else  if (z == 3) {
+	alert("Вы выбрали 3 задание");
+	
+// если выбрали другую цифру	
+} else {
+	alert("Ошибка!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
 </body>
 </html>
